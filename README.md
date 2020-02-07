@@ -89,13 +89,13 @@ Please enter an expression:
 > 1*(2+(3*(4+5)))
 1*(2+3*(4+5))
 Please enter an expression:
-2 + (3 / -5)
+> 2 + (3 / -5)
 2 + 3 / -5
 Please enter an expression:
-x+(y+z)+(t+(v+w))
+> x+(y+z)+(t+(v+w))
 x+y+z+t+v+w
 Please enter an expression:
-exit
+> exit
 
 ```
 Type "exit" to stop, or hit ctrl+c  
