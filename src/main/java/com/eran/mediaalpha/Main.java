@@ -18,7 +18,7 @@ public class Main {
     }
 
     private static String awaitInput(Scanner in) {
-        System.out.println("Please enter an expression:");
+        System.out.print("Please enter an expression or type exit to stop\n>");
         return in.nextLine();
     }
 }

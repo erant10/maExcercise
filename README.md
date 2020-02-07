@@ -80,3 +80,22 @@ From the main project directory, execute using the `java` command
 ```bash
 $ java -jar ./build/libs/excercises-1.0.jar 
 ```
+
+Enter an expression when prompt. The output will be the same expression without any redundant parentheses.
+
+For example:
+```
+Please enter an expression:
+> 1*(2+(3*(4+5)))
+1*(2+3*(4+5))
+Please enter an expression:
+2 + (3 / -5)
+2 + 3 / -5
+Please enter an expression:
+x+(y+z)+(t+(v+w))
+x+y+z+t+v+w
+Please enter an expression:
+exit
+
+```
+Type "exit" to stop, or hit ctrl+c  
